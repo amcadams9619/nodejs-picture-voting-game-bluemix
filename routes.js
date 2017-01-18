@@ -11,6 +11,8 @@ module.exports = function(app){
 
 	// Homepage
 	app.get('/', function(req, res){
+		
+		console.log(req);
 
 		// Find all photos
 		photos.find({}, function(err, all_photos){
