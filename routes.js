@@ -12,7 +12,7 @@ module.exports = function(app){
 	// Homepage
 	app.get('/', function(req, res){
 		
-		console.log(req);
+		console.log("req.header = " + req.header);
 
 		// Find all photos
 		photos.find({}, function(err, all_photos){
