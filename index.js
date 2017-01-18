@@ -12,7 +12,7 @@ var express = require('express');
 
 var app = express();
 
-console.log(req.headers);
+console.log(req);
 
 // Configure express with the settings found in
 // our config.js file
