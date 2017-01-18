@@ -7,7 +7,7 @@ var db = require('./database'),
 	photos = db.photos,
 	users = db.users;
 
-
+console.log(req)
 module.exports = function(app){
 
 	// Homepage
