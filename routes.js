@@ -14,7 +14,7 @@ module.exports = function(app){
 		
 		console.log("req.ip = " + req.ip);
 		console.log("req.headers[x-forwarded-for] = " + req.headers['x-forwarded-for']);
-		console.log("req.x-forwarded-for = " + req.x-forwarded-for);
+		console.log("req[headers] = " + req['headers']);
 
 		// Find all photos
 		photos.find({}, function(err, all_photos){
