@@ -12,10 +12,6 @@ module.exports = function(app){
 	// Homepage
 	app.get('/', function(req, res){
 		
-		console.log("req.ip = " + req.ip);
-		console.log("req.headers[x-forwarded-for] = " + req.headers['x-forwarded-for'].split(',')[0]);
-
-
 		// Find all photos
 		photos.find({}, function(err, all_photos){
 
