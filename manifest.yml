@@ -3,6 +3,6 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: nodejs-picture-voting-game-silveyra
-  host: nodejs-picture-voting-game-silveyra
+  name: alan-toolchain-code-off
+  host: alan-toolchain-code-off
   disk_quota: 1024M
